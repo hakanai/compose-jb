@@ -20,5 +20,5 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 15
-    - name: Build with Gradle
-      run: cd examples/todoapp && ./gradlew build
+    - name: Build examples/todoapp with Gradle
+      run: cd examples/todoapp && ./gradlew build --stacktrace
