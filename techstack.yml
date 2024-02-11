@@ -1,0 +1,150 @@
+repo_name: hakanai/compose-jb
+report_id: 47427f9657d545c0110566a321e9ae79
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-11T01:34:36+00:00'
+requested_by: jimgoog
+provider: github
+branch: master
+detected_tools_count: 12
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/hakanai/compose-jb/blob/master/ci/docker/linux/Dockerfile
+  detection_source: ci/docker/linux/Dockerfile
+  last_updated_by: Alexey Tsvetkov
+  last_updated_on: 2020-09-16 14:33:27.000000000 Z
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/hakanai/compose-jb
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/hakanai/compose-jb/blob/master/examples/todoapp/build.gradle.kts
+  detection_source: examples/todoapp/build.gradle.kts
+  last_updated_by: Arkadii Ivanov
+  last_updated_on: 2020-10-14 18:53:05.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/hakanai/compose-jb
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hakanai/compose-jb
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/hakanai/compose-jb/blob/master/benchmarks/gradlew
+  detection_source: benchmarks/gradlew
+  last_updated_by: Andrew Rudenko
+  last_updated_on: 2020-11-10 13:10:44.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/hakanai/compose-jb/blob/master/gradle-plugins/compose/src/test/resources/junit-platform.properties
+  detection_source: gradle-plugins/compose/src/test/resources/junit-platform.properties
+  last_updated_by: Alexey Tsvetkov
+  last_updated_on: 2020-11-16 06:59:37.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/hakanai/compose-jb/blob/master/examples/todoapp/build.gradle.kts
+  detection_source: examples/todoapp/build.gradle.kts
+  last_updated_by: Arkadii Ivanov
+  last_updated_on: 2020-10-14 18:53:05.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/hakanai/compose-jb
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/hakanai/compose-jb
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/hakanai/compose-jb/blob/master/ci/docker/linux/Dockerfile
+  detection_source: ci/docker/linux/Dockerfile
+  last_updated_by: Alexey Tsvetkov
+  last_updated_on: 2020-09-16 14:33:27.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib
+  description: Kotlin Standard Library for JVM
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/compose-jb/blob/master/gradle-plugins/compose/src/test/test-projects/application/jvm/build.gradle
+  detection_source: gradle-plugins/compose/src/test/test-projects/application/jvm/build.gradle
+  last_updated_by: Alexey Tsvetkov
+  last_updated_on: 2020-11-12 09:51:22.000000000 Z
